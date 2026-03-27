@@ -1,1 +1,27 @@
+OpenCV C++ 基础图像处理作业
+
+一个基于 C++ 和 OpenCV 的基础图像处理实验，完成图像读取、显示、灰度转换、像素访问与区域裁剪功能。
+功能实现
+- 读取并显示彩色图像
+- 输出图像基本信息（宽度、高度、通道数）
+- 彩色图像转灰度图像并保存
+- 访问指定位置像素值
+- 裁剪图像区域并保存
+
+编译与运行
+```bash
+g++ main.cpp -o opencv_demo `pkg-config --cflags --libs opencv4`
+./opencv_demo test.jpg
+```
+
+ 运行结果
+- 显示原图与灰度图窗口
+- 生成 gray_result.jpg（灰度图）
+- 生成 crop_result.jpg（裁剪图）
+- 终端输出图像信息与像素值
+
+环境
+- Ubuntu / WSL
+- OpenCV 4.x
+- C++17
 
