@@ -45,4 +45,3 @@ python adaptive_downsampling.py
 - 自动输出对比图、FFT 频谱、误差热力图
 - 支持自适应滤波、分区域滤波扩展
 
-需要我再帮你生成一个 **实验报告.md（GitHub 版）** 一起提交吗？
